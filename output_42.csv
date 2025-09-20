@@ -1,0 +1,572 @@
+Count, j, Group, H1
+1, 7, "C7 x A4", 2
+2, 8, "(C14 x C2) : C3", 2
+3, 28, "D14 x A4", 2
+4, 31, "C7 : (C2 x A4)", 2
+5, 37, "PSL(3,2)", 2
+6, 39, "(C7 : C3) x A4", 2
+7, 53, "C2 x ((C7 x C7) : C3)", 7
+8, 56, "(C7 x C7) : S3", 7
+9, 63, "(C7 x C7) : C6", 7
+10, 64, "(C7 : C3) x D14", 7
+11, 86, "C7 x A5", 2
+12, 90, "(C7 : C6) x A4", 2
+13, 104, "(C2 x C2) : ((C7 x C7) : C3)", 14
+14, 105, "C7 x ((C14 x C2) : C3)", 2
+15, 107, "C2 x ((C7 x C7) : S3)", 7
+16, 139, "D14 x A5", 2
+17, 176, "PSL(2,13)", 2
+18, 177, "C2 x ((C2 x C2) : ((C7 x C7) : C3))", 7
+19, 179, "(C7 x C7) : (C2 x A4)", 2
+20, 181, "(C7 x C7) : S4", 7
+21, 182, "(C7 x C7) : S4", 7
+22, 185, "(C7 x C7) : (C2 x A4)", 2
+23, 197, "(C7 : C3) x A5", 2
+24, 219, "(C2 x C2) : ((C7 : C3) x (C7 : C3))", 2
+25, 261, "PSL(3,2) x A4", 2
+26, 286, "C2 x ((C7 x C7) : S4)", 7
+27, 297, "(C7 : C6) x A5", 2
+28, 334, "C3 x PSL(2,13)", 2
+29, 335, "C3 x PSL(2,13)", 2
+30, 337, "(C7 x C7) : (C6 x A4)", 2
+31, 386, "C7 x ((C2 x C2) : ((C7 x C7) : C3))", 2
+32, 390, "(C7 x C7 x C7) : A4", 2
+33, 391, "(C7 x C7 x C7) : A4", 2
+34, 406, "(C7 x C7 x C7) : A4", 2
+35, 407, "(C7 x C7 x C7) : A4", 2
+36, 482, "PSL(2,13) x S3", 2
+37, 526, "(C7 x C7 x C7) : (C2 x A4)", 2
+38, 534, "(C7 x C7 x C7) : (C2 x A4)", 2
+39, 535, "(C7 x C7 x C7) : (C2 x A4)", 2
+40, 545, "(C7 x C7 x C7) : (C2 x A4)", 2
+41, 546, "(C7 x C7 x C7) : (C2 x A4)", 2
+42, 552, "PSL(3,2) x A5", 2
+43, 622, "(C2 x C2) : ((C7 x C7 x C7) : (C3 x C3))", 2
+44, 623, "(C2 x C2) : ((C7 x C7 x C7) : C9)", 2
+45, 628, "(C7 x C7 x C7) : (C3 x A4)", 2
+46, 629, "(C7 x C7 x C7) : (C3 x A4)", 2
+47, 630, "(C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+48, 631, "(C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+49, 632, "(C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+50, 644, "(C7 x C7 x C7) : (C3 x A4)", 2
+51, 645, "(C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+52, 695, "(C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : C3)", 2
+53, 784, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+54, 786, "(C7 x C7 x C7) : (C6 x A4)", 2
+55, 800, "(C7 x C7 x C7) : (C6 x A4)", 2
+56, 802, "(C7 x C7 x C7) : (C6 x A4)", 2
+57, 805, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+58, 807, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+59, 809, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+60, 815, "(C7 x C7 x C7) : (C6 x A4)", 2
+61, 816, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+62, 839, "C7 x ((C7 x C7 x C7) : A4)", 2
+63, 840, "(C7 x C7 x C7 x C7) : A4", 2
+64, 841, "A7 x A4", 2
+65, 903, "(C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : C3))", 2
+66, 911, "PSL(2,41)", 2
+67, 912, "(C2 x C2) : ((C7 x C7 x C7) : ((C3 x C3) : C3))", 2
+68, 913, "(C2 x C2) : ((C7 x C7 x C7) : (C9 : C3))", 2
+69, 921, "(C7 x C7 x C7) : ((C2 x C2) : (C9 : C3))", 2
+70, 922, "(C7 x C7 x C7) : ((C2 x C2) : (C9 : C3))", 2
+71, 923, "(C7 x C7 x C7) : ((C2 x C2) : (C9 : C3))", 2
+72, 924, "(C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3) : C3))", 2
+73, 925, "(C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3) : C3))", 2
+74, 974, "(C7 x C7 x C7) : (C3 x ((C2 x C2 x C2 x C2) : C3))", 2
+75, 975, "(C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : C9)", 2
+76, 1014, "(C7 x C7 x C7 x C7) : (C2 x A4)", 2
+77, 1015, "(C7 x C7 x C7 x C7) : (C2 x A4)", 2
+78, 1025, "S7 x A4", 2
+79, 1098, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3) : C3)))", 2
+80, 1104, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+81, 1116, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3) : C3)))", 2
+82, 1118, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3) : C3)))", 2
+83, 1122, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+84, 1125, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+85, 1126, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+86, 1133, "(C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)", 7
+87, 1189, "(C7 x C7 x C7 x C7) : (C3 x A4)", 2
+88, 1235, "(C7 x C7 x C7) : (C6 x ((C2 x C2 x C2 x C2) : C3))", 2
+89, 1238, "(C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : C9))", 2
+90, 1249, "(C2 x C2) : ((C7 x C7 x C7) : ((C3 x C3 x C3) : C3))", 2
+91, 1253, "(C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3 x C3) : C3))", 2
+92, 1254, "(C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3 x C3) : C3))", 2
+93, 1293, "(C3 x C3 x C3 x C3 x C3 x C3) : PSL(3,2)", 3
+94, 1321, "(C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : (C9 : C3))", 2
+95, 1322, "(C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : ((C3 x C3) : C3))", 2
+96, 1341, "C2 x ((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C\
+3))", 7
+97, 1345, "A7 x A5", 2
+98, 1393, "(C7 x C7 x C7 x C7) : (C6 x A4)", 2
+99, 1459, "(C7 x C7 x C7 x C7 x C7) : A4", 2
+100, 1460, "C7 x ((C7 x C7 x C7 x C7) : A4)", 2
+101, 1464, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3 x C3) : C3)))", 2
+102, 1477, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3 x C3) : C3)))", 2
+103, 1478, "(C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3 x C3) : C3)))", 2
+104, 1563, "(C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : ((C3 x C3) : C3)))",\
+ 2
+105, 1567, "(C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : (C9 : C3)))", 2
+106, 1573, "(C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7\
+) : C3)", 7
+107, 1577, "S7 x A5", 2
+108, 1641, "C3 x ((C3 x C3 x C3 x C3 x C3 x C3) : PSL(3,2))", 3
+109, 1646, "(C7 x C7 x C7 x C7 x C7) : (C2 x A4)", 2
+110, 1647, "(C7 x C7 x C7 x C7 x C7) : (C2 x A4)", 2
+111, 1659, "(C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : ((C3 x C3 x C3) : C3))", 2
+112, 1759, "C2 x ((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C\
+7 x C7) : C3))", 7
+113, 1770, "(C7 x C7 x C7 x C7 x C7) : (C3 x A4)", 2
+114, 1866, "(C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : ((C3 x C3 x C3) : C3\
+)))", 2
+115, 1908, "(C7 x C7 x C7 x C7 x C7) : A5", 2
+116, 1948, "(C7 x C7 x C7 x C7 x C7) : (C6 x A4)", 2
+117, 1992, "C7 x ((C7 x C7 x C7 x C7 x C7) : A4)", 2
+118, 1993, "(C7 x C7 x C7 x C7 x C7 x C7) : A4", 2
+119, 2140, "(C7 x C7 x C7 x C7 x C7) : (C2 x A5)", 2
+120, 2185, "(C3 x C3 x C3 x C3 x C3 x C3 x C3) : PSL(2,13)", 2
+121, 2215, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x A4)", 2
+122, 2216, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x A4)", 2
+123, 2245, "(C7 x C7 x C7 x C7 x C7) : GL(2,4)", 2
+124, 2379, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x A4)", 2
+125, 2380, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x A4)", 2
+126, 2381, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+127, 2382, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : C9)", 2
+128, 2397, "(C3 x C3 x C3 x C3 x C3 x C3 x C3) : (C2 x PSL(2,13))", 2
+129, 2423, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C4 x C4) : C3)", 2
+130, 2424, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : C3)", 2
+131, 2511, "(C7 x C7 x C7 x C7 x C7) : (C6 x A5)", 2
+132, 2533, "C7 x ((C7 x C7 x C7 x C7 x C7) : A5)", 2
+133, 2534, "(C7 x C7 x C7 x C7 x C7 x C7) : A5", 2
+134, 2593, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x A4)", 2
+135, 2594, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x A4)", 2
+136, 2595, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+137, 2596, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : C9))", 2
+138, 2657, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C4 x C4) : C3))", 2
+139, 2658, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : C3))"\
+, 2
+140, 2659, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : C3)", 2
+141, 2660, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C4) : C2) : C3)", 2
+142, 2661, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2) : C2) : C3)"\
+, 2
+143, 2753, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3) : C3))", 2
+144, 2754, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3) : C3))", 2
+145, 2755, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : (C9 : C3))", 2
+146, 2756, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : (C9 : C3))", 2
+147, 2777, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x A5)", 2
+148, 2778, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x A5)", 2
+149, 2842, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x ((C4 x C4) : C3))", 2
+150, 2843, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x ((C2 x C2 x C2 x C2) : C3))"\
+, 2
+151, 2844, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : C9)", 2
+152, 2845, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C4 x C4) : C9)", 2
+153, 2904, "(C7 x C7 x C7 x C7 x C7 x C7) : GL(2,4)", 2
+154, 2905, "(C7 x C7 x C7 x C7 x C7 x C7) : GL(2,4)", 2
+155, 2945, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C4 x C4) : C2) : C3))", 2
+156, 2946, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x C2 x C2) : C2) \
+: C3))", 2
+157, 2947, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : C3)", 2
+158, 3027, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3) : C3\
+)))", 2
+159, 3028, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3) : C3\
+)))", 2
+160, 3029, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+161, 3030, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : (C9 : C3)))", 2
+162, 3138, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x ((C4 x C4) : C3))", 2
+163, 3139, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x ((C2 x C2 x C2 x C2) : C3))"\
+, 2
+164, 3140, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C4 x C2) : C4) : C3))", 2
+165, 3141, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : C9))"\
+, 2
+166, 3142, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C4 x C4) : C9))", 2
+167, 3143, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : C9)", 2
+168, 3144, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : C9)", 2
+169, 3145, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C4 x C4) : C2) : C3))", 2
+170, 3146, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C2 x C2 x C2 x C2) : C2) \
+: C3))", 2
+171, 3147, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C4) : C2) : C9)", 2
+172, 3148, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2) : C2) : C9)"\
+, 2
+173, 3216, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3 x C3) : C3)\
+)", 2
+174, 3217, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2) : ((C3 x C3 x C3) : C3)\
+)", 2
+175, 3218, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C2 x C2)) : C3\
+)", 2
+176, 3219, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C2 x C2)) : C3\
+)", 2
+177, 3240, "(C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x \
+C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)", 7
+178, 3253, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x A5)", 2
+179, 3254, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x A5)", 2
+180, 3292, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x ((C2 x C2 x C2 x C2) : C2)\
+) : C2) : C3)", 2
+181, 3385, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : ((C3 x C3) \
+: C3))", 2
+182, 3386, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : (C9 : C3))"\
+, 2
+183, 3387, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C4 x C4) : ((C3 x C3) : C3))", 2
+184, 3388, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C4 x C4) : (C9 : C3))", 2
+185, 3418, "(C2 x C2) : ((PSL(3,2) x PSL(3,2) x PSL(3,2)) : C3)", 2
+186, 3423, "(PSL(3,2) x PSL(3,2) x PSL(3,2)) : A4", 2
+187, 3497, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C4 x C4) : C2) : C3))", 2
+188, 3498, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C2 x C2 x C2 x C2) : C2) \
+: C3))", 2
+189, 3499, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x ((((C4 x C2) : C4) : C2) : C\
+3))", 2
+190, 3500, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x C2 x C2) : C2) \
+: C9))", 2
+191, 3501, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C4 x C4) : C2) : C9))", 2
+192, 3502, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x (C4 : C4)) : C2) : C9)", 2
+193, 3503, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : C9)", 2
+194, 3594, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3 x C3)\
+ : C3)))", 2
+195, 3595, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2) : ((C3 x C3 x C3)\
+ : C3)))", 2
+196, 3596, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+197, 3597, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+198, 3635, "C2 x ((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3))", 7
+199, 3639, "((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2", 7
+200, 3640, "((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2", 7
+201, 3681, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x ((C4 x C2) : C2)) : C2) :\
+ C2) : C3)", 2
+202, 3739, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : ((C3 \
+x C3) : C3)))", 2
+203, 3740, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : (C9 :\
+ C3)))", 2
+204, 3741, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C4 x C4) : ((C3 x C3) : C3\
+)))", 2
+205, 3742, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C4 x C4) : (C9 : C3)))", 2
+206, 3743, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : ((C3 x C3) : C\
+3))", 2
+207, 3744, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : (C9 : C3))", 2
+208, 3745, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : (C9 : C3))", 2
+209, 3746, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2) : C2) : ((C3\
+ x C3) : C3))", 2
+210, 3747, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C4) : C2) : ((C3 x C3) : C\
+3))", 2
+211, 3748, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C4) : C2) : (C9 : C3))", 2
+212, 3749, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2) : C2) : (C9 \
+: C3))", 2
+213, 3815, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+214, 3816, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+215, 3817, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C2 x C2)) : C9\
+)", 2
+216, 3818, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C2 x C2)) : C9\
+)", 2
+217, 3899, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C2 x ((C2 x C2 x C2 x C2)\
+ : C2)) : C2) : C3))", 2
+218, 3900, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x ((C2 x C2 x C2 x C2) : C2)\
+) : C2) : C9)", 2
+219, 3980, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2) : ((C3 x C3 x\
+ C3) : C3))", 2
+220, 3981, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C4 x C4) : ((C3 x C3 x C3) : C3)\
+)", 2
+221, 3982, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x ((C3 x C3 x C3) : (C2 \
+x C2))) : C3)", 2
+222, 3983, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C4 x C4)) : C3\
+)", 2
+223, 4012, "(C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x \
+C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)", 7
+224, 4015, "C2 x (((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 \
+x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2)", 7
+225, 4103, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x C2 x C2) : C2) \
+: ((C3 x C3) : C3)))", 2
+226, 4104, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x C2 x C2) : C2) \
+: (C9 : C3)))", 2
+227, 4105, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C4 x C4) : C2) : ((C3 x C\
+3) : C3)))", 2
+228, 4106, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C4 x C4) : C2) : (C9 : C3\
+)))", 2
+229, 4107, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : ((C3 x \
+C3) : C3))", 2
+230, 4108, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : (C9 : C\
+3))", 2
+231, 4109, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : (C9 : C\
+3))", 2
+232, 4170, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2 x C2) : A5)", \
+2
+233, 4217, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+234, 4218, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C3))", 2
+235, 4219, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C9))", 2
+236, 4220, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C2 x C2)\
+) : C9))", 2
+237, 4310, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C2 x C2 x ((C2 x C2 x C2 \
+x C2) : C2)) : C2) : C3))", 2
+238, 4311, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x ((C2 x C2 x C2 x C2) \
+: C2)) : C2) : C9)", 2
+239, 4372, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2) : C2) : ((C3\
+ x C3 x C3) : C3))", 2
+240, 4373, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x ((C3 x C3 x C3) \
+: (C2 x C2))) : C3))", 2
+241, 4374, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C4 x C4)\
+) : C3))", 2
+242, 4375, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C4 x C2) : C4\
+)) : C3)", 2
+243, 4376, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x C2 x C2) : ((C3 \
+x C3 x C3) : C3)))", 2
+244, 4377, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C4 x C4) : ((C3 x C3 x C3)\
+ : C3)))", 2
+245, 4378, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C2) : C4) : ((C3 x C3 x C3\
+) : C3))", 2
+246, 4379, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C4 x C4) : C2) : ((C3 x C3 x C3\
+) : C3))", 2
+247, 4380, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C2 x C2 x C2 \
+x C2) : C2)) : C3)", 2
+248, 4381, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C4 x C4) : C2\
+)) : C3)", 2
+249, 4413, "C2 x ((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3))", 7
+250, 4417, "((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2", 7
+251, 4418, "((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x\
+ C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2", 7
+252, 4469, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x (((C3 x C3 x C3) : (C2 x C2\
+)) : C3)) : C3)", 2
+253, 4470, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x (((C3 x C3 x C3) : (C2 x C2\
+)) : C3)) : C3)", 2
+254, 4471, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : (C2 x C2)) : C\
+9) : C3)", 2
+255, 4472, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : (C2 x C2)) : C\
+9) : C3)", 2
+256, 4551, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x ((C2 x C2 x C2 x C2) : C2)\
+) : C2) : ((C3 x C3) : C3))", 2
+257, 4552, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x ((C2 x C2 x C2 x C2) : C2)\
+) : C2) : (C9 : C3))", 2
+258, 4606, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x C2 x C2 x C2) : A5) :\
+ C2)", 2
+259, 4656, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x ((C2 x C2 x ((C3 x C3 x C3) \
+: (C2 x C2))) : C3))", 2
+260, 4657, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x ((C3 x C3 x C3) : (C2 \
+x C2))) : C9)", 2
+261, 4658, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : (C4 x C4)\
+) : C3))", 2
+262, 4659, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (C4 x C4)) : C9\
+)", 2
+263, 4807, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x C2 x C2) : C2) \
+: ((C3 x C3 x C3) : C3)))", 2
+264, 4808, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C4 x C4) : C2) : ((C3 x C\
+3 x C3) : C3)))", 2
+265, 4809, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C4 x C2) : C4) : C2) : ((C3 x \
+C3 x C3) : C3))", 2
+266, 4810, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : ((C2 x C2\
+ x C2 x C2) : C2)) : C3))", 2
+267, 4811, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : ((C4 x C4\
+) : C2)) : C3))", 2
+268, 4812, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : (((C4 x C2) : C\
+4) : C2)) : C3)", 2
+269, 4878, "C2 x (((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 \
+x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : ((C7 x C7) : C3)) : C2)", 7
+270, 4915, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x ((C2 x C2 x C2 x C2 x C2) : \
+A5))", 2
+271, 4936, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x (((C3 x C3 x C3) : (C\
+2 x C2)) : C3)) : C3))", 2
+272, 4937, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x (((C3 x C3 x C3) : (C\
+2 x C2)) : C3)) : C3))", 2
+273, 4938, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C3 x C3 x C3) : (C2 x C2\
+)) : C9) : C3))", 2
+274, 4939, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C3 x C3 x C3) : (C2 x C2\
+)) : C9) : C3))", 2
+275, 5016, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x ((C2 x C2 x C2 x C2) \
+: C2)) : C2) : ((C3 x C3) : C3))", 2
+276, 5017, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C2 x ((C2 x C2 x C2 x C2) : C2\
+)) : C2) : C2) : (C9 : C3))", 2
+277, 5086, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x ((C2 x C2 x ((C3 x C3 x C3) \
+: (C2 x C2))) : C3))", 2
+278, 5087, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C2 x C2 x ((C3 x C3 x C3) \
+: (C2 x C2))) : C9))", 2
+279, 5088, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C3 x C3 x C3) : (C4 x C4)\
+) : C3))", 2
+280, 5089, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3) : (C4 x C4)\
+) : C9))", 2
+281, 5090, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : ((C4 x C2\
+) : C4)) : C3))", 2
+282, 5091, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C4 x C2) : C4\
+)) : C9)", 2
+283, 5092, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C4 x C2) : C4\
+)) : C9)", 2
+284, 5093, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C2 x C2 x ((C3 x C3 x C3)\
+ : (C2 x C2))) : C3) : C2))", 2
+285, 5094, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x ((C3 x C3 x C3) : (C2\
+ x C2))) : C9) : C2)", 2
+286, 5095, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : ((C4 x C4\
+) : C2)) : C3))", 2
+287, 5096, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : (C4 x C4)) : C\
+9) : C2)", 2
+288, 5185, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : (C2 x C2)) : \
+C9) : C3) : C3)", 2
+289, 5186, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x C3 x C3 x ((C3 x C3 x C3) :\
+ (C2 x C2))) : C3)", 2
+290, 5255, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C2 x ((C4 x C2) : C2)) : C2) :\
+ C2) : ((C3 x C3 x C3) : C3))", 2
+291, 5256, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C2 x ((C2 x C\
+2 x C2 x C2) : C2)) : C2)) : C3)", 2
+292, 5325, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C2 x C2 x C2 x C2 x C2) :\
+ A5) : C2))", 2
+293, 5347, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x ((C2 x C2 x ((C3 x C3 x C3)\
+ : (C2 x C2))) : C3)) : C3)", 2
+294, 5348, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x ((C3 x C3 x C3) : (C2\
+ x C2))) : C9) : C3)", 2
+295, 5349, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x C3 x ((C3 x C3 x C3) : (C4 \
+x C4))) : C3)", 2
+296, 5350, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : (C4 x C4)) : C\
+9) : C3)", 2
+297, 5446, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x C3 x C3 x C3 x C3) : A5)", \
+2
+298, 5447, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x C3 x C3 x C3 x C3) : A5)", \
+2
+299, 5448, "(C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3) :\
+ PSL(2,13)", 2
+300, 5479, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C3 x C3 x C3) : ((C2 x C2\
+ x C2 x C2) : C2)) : C3))", 2
+301, 5480, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x ((C3 x C3 x C3)\
+ : (C2 x C2))) : C9) : C2))", 2
+302, 5481, "(C7 x C7 x C7 x C7 x C7 x C7) : (C6 x (((C3 x C3 x C3) : ((C4 x C4\
+) : C2)) : C3))", 2
+303, 5482, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C3 x C3 x C3) : (C4 x C4\
+)) : C9) : C2))", 2
+304, 5483, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : (((C4 x C\
+2) : C4) : C2)) : C3))", 2
+305, 5484, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C4 x C2) : C\
+4)) : C9) : C2)", 2
+306, 5485, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C4 x C2) : C\
+4)) : C9) : C2)", 2
+307, 5597, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x (((C3 x C3 x C3) : (\
+C2 x C2)) : C3)) : C3) : C3))", 2
+308, 5598, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((((C3 x C3 x C3) : (C2 x C\
+2)) : C9) : C3) : C3))", 2
+309, 5687, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C2 x C2 x ((C2 x C2 x C2 x C2) \
+: C2)) : C2) : ((C3 x C3 x C3) : C3))", 2
+310, 5688, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C2 x C2 x ((C\
+2 x C2 x C2 x C2) : C2)) : C2)) : C3)", 2
+311, 5743, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C6 x C6 x ((C3 x C3 x C3) \
+: (C2 x C2))) : C3))", 2
+312, 5744, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C2 x C2 x ((C3 x C3 x C3)\
+ : (C2 x C2))) : C9) : C3))", 2
+313, 5745, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x (((C3 x C3 x C3) : (C\
+4 x C4)) : C3)) : C3))", 2
+314, 5746, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C3 x C3 x C3) : (C4 x C4\
+)) : C9) : C3))", 2
+315, 5747, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x (((C3 x C3 x C3) : ((C4 x C\
+2) : C4)) : C3)) : C3)", 2
+316, 5748, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C4 x C2) : C\
+4)) : C9) : C3)", 2
+317, 5749, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C4 x C2) : C\
+4)) : C9) : C3)", 2
+318, 5750, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x (((C3 x C3 x C3) : ((C2 x C\
+2 x C2 x C2) : C2)) : C3)) : C3)", 2
+319, 5751, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C2 x C2 x ((C3 x C3 x C3) : (C\
+2 x C2))) : C9) : C3) : C2)", 2
+320, 5752, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x (((C3 x C3 x C3) : (C4 x C\
+4)) : C3)) : C3) : C2)", 2
+321, 5753, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : (C4 x C4)) : \
+C9) : C3) : C2)", 2
+322, 5853, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x C3 x C3 x C3 x C3) : \
+A5))", 2
+323, 5854, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x C3 x C3 x C3 x C3) : \
+A5))", 2
+324, 5857, "(C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3) :\
+ (C2 x PSL(2,13))", 2
+325, 5882, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : ((C2 x ((\
+C2 x C2 x C2 x C2) : C2)) : C2)) : C3))", 2
+326, 5883, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3) : ((C2 x ((C2 x C\
+2 x C2 x C2) : C2)) : C2)) : C9)", 2
+327, 5971, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C2 x C2 x ((C3 x C3 x C3) : (C\
+2 x C2))) : C9) : C3) : C3)", 2
+328, 5972, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : (C4 x C4)) : \
+C9) : C3) : C3)", 2
+329, 6116, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3 x C3 x C3) : A5) :\
+ C3)", 2
+330, 6117, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x C3 x C3 x C3 x C3) : A5) :\
+ C3)", 2
+331, 6118, "C3 x ((C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x\
+ C3) : PSL(2,13))", 2
+332, 6119, "(C3 x C3 x C3 x C3 x C3 x C3 x C3) : ((C3 x C3 x C3 x C3 x C3 x C3\
+ x C3) : PSL(2,13))", 2
+333, 6149, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x ((C2 x C2 x ((C3 x C\
+3 x C3) : (C2 x C2))) : C3)) : C3) : C2))", 2
+334, 6150, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C2 x C2 x ((C3 x C3 x C3\
+) : (C2 x C2))) : C9) : C3) : C2))", 2
+335, 6151, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x ((C3 x C3 x C3)\
+ : (C4 x C4))) : C3) : C2))", 2
+336, 6152, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((((C3 x C3 x C3) : (C4 x C\
+4)) : C9) : C2) : C3))", 2
+337, 6153, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x (((C3 x C3 x C3) : ((C4 x \
+C2) : C4)) : C3)) : C3) : C2)", 2
+338, 6154, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : ((C4 x C2) : \
+C4)) : C9) : C3) : C2)", 2
+339, 6155, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : ((C4 x C2) : \
+C4)) : C9) : C3) : C2)", 2
+340, 6314, "(C7 x C7 x C7 x C7 x C7 x C7) : (C3 x (((C3 x C3 x C3) : (((C2 x (\
+(C2 x C2 x C2 x C2) : C2)) : C2) : C2)) : C3))", 2
+341, 6315, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C2 x ((C2 x \
+C2 x C2 x C2) : C2)) : C2)) : C9) : C2)", 2
+342, 6364, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((C2 x C2 x ((C3 x C3 x C3\
+) : (C2 x C2))) : C9) : C3) : C3))", 2
+343, 6365, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x (((C3 x C3 x C3) : (\
+C4 x C4)) : C3)) : C3) : C3))", 2
+344, 6366, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x (((C3 x C3 x C3) : ((C4 x \
+C2) : C4)) : C3)) : C3) : C3)", 2
+345, 6367, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x C3 x C3 x ((C3 x C3 x C3) :\
+ ((C2 x C2 x C2 x C2) : C2))) : C3)", 2
+346, 6368, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((((C3 x C3 x C3) : (C4 x C4)) :\
+ C9) : C3) : C3) : C2)", 2
+347, 6475, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3 x C3 x C3) :\
+ A5) : C3))", 2
+348, 6476, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x (((C3 x C3 x C3 x C3 x C3) :\
+ A5) : C3))", 2
+349, 6480, "C3 : ((C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x\
+ C3) : (C2 x PSL(2,13)))", 2
+350, 6481, "(C3 x C3 x C3 x C3 x C3 x C3 x C3) : ((C3 x C3 x C3 x C3 x C3 x C3\
+ x C3) : (C2 x PSL(2,13)))", 2
+351, 6512, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x (((C3 x C3 x C3) : (((C2 x \
+((C4 x C2) : C2)) : C2) : C2)) : C3)) : C3)", 2
+352, 6513, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((C3 x C3 x C3) : ((C2 x ((C2 x \
+C2 x C2 x C2) : C2)) : C2)) : C9) : C3)", 2
+353, 6732, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((C3 x C3 x C3 x ((C3 x C3 x\
+ C3) : ((C2 x C2 x C2 x C2) : C2))) : C3))", 2
+354, 6733, "(C7 x C7 x C7 x C7 x C7 x C7) : (C2 x ((((((C3 x C3 x C3) : (C4 x \
+C4)) : C9) : C2) : C3) : C3))", 2
+355, 6734, "(C7 x C7 x C7 x C7 x C7 x C7) : (((C3 x (((C3 x C3 x C3) : (((C4 x\
+ C2) : C4) : C2)) : C3)) : C3) : C3)", 2
+356, 6870, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C3 x ((((C3 x C3 x C3) : ((C2 x \
+((C2 x C2 x C2 x C2) : C2)) : C2)) : C3) : C2)) : C3)", 2
+357, 6871, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : ((C2 x ((C2 x\
+ C2 x C2 x C2) : C2)) : C2)) : C9) : C3) : C2)", 2
+358, 7094, "(C7 x C7 x C7 x C7 x C7 x C7) : (((((C3 x C3 x C3) : ((C2 x ((C2 x\
+ C2 x C2 x C2) : C2)) : C2)) : C9) : C3) : C3)", 2
+359, 7281, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2 x C2) : ((C3 x\
+ C3 x C3 x C3 x C3) : A5))", 2
+360, 7391, "(C7 x C7 x C7 x C7 x C7 x C7) : ((((((C3 x C3 x C3) : ((C2 x ((C2 \
+x C2 x C2 x C2) : C2)) : C2)) : C9) : C3) : C3) : C2)", 2
+361, 7591, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2 x C2 x C2) : (\
+(C3 x C3 x C3 x C3 x C3) : A5))", 2
+362, 7672, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2 x C2) : ((C3 x\
+ C3 x C3 x C3 x C3 x C3) : A5))", 2
+363, 7686, "(C2 x C2) : ((A7 x A7 x A7) : C3)", 2
+364, 7693, "(A7 x A7 x A7) : A4", 2
+365, 7694, "(A7 x A7 x A7) : A4", 2
+366, 7868, "(C7 x C7 x C7 x C7 x C7 x C7) : ((C2 x C2 x C2 x C2 x C2 x C2) : (\
+((C3 x C3 x C3 x C3 x C3) : A5) : C3))", 2
+367, 7883, "(C2 x C2) : ((A7 x A7 x A7) : C6)", 2
+368, 7894, "(A7 x A7 x A7) : (C2 x A4)", 2
+369, 7896, "(A7 x A7 x A7) : (C2 x A4)", 2
+370, 8081, "(A7 x A7 x A7) : ((C2 x C2 x C2 x C2) : C3)", 2
+371, 8255, "(C2 x C2) : ((A7 x A7 x A7) : (C2 x A4))", 2
+372, 8781, "(C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x \
+C3) : ((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : PSL(\
+2,13))", 2
+373, 8844, "(C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x C3 x \
+C3) : (((C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2 x C2) : PSL\
+(2,13)) : C2)", 2
+374, 8966, "(PSL(3,2) x PSL(3,2) x PSL(3,2) x PSL(3,2) x PSL(3,2) x PSL(3,2)) \
+: A4", 2
