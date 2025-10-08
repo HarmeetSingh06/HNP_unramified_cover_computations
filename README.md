@@ -1,4 +1,4 @@
-# hass_norm_principle_unramified_cover_computations
+# hasse_norm_principle_unramified_cover_computations
 
 GAP code for computing the unramified cover of the first obstruction to HNP. The functions are in the GAP file unram.gap. We then used a HPC cluster to carry out the computations in degree 30 and 42. I'll explain each file:
 
